@@ -6,44 +6,68 @@
     <title>Website cá nhân - Nguyễn Xuân Thái</title>
     <style>
         body {
-            font-family: 'Courier New', monospace;
+            font-family: 'Poppins', sans-serif;
             text-align: center;
             margin: 0;
             padding: 0;
-            background-color: #e0f7fa;
+            background: linear-gradient(to right, #e0f7fa, #80deea);
         }
         .container {
-            max-width: 700px;
+            max-width: 800px;
             margin: 50px auto;
-            padding: 30px;
+            padding: 40px;
             background: white;
-            border-radius: 15px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
         }
         .profile-img {
-            width: 180px;
-            height: 180px;
+            width: 200px;
+            height: 200px;
             border-radius: 50%;
             border: 5px solid #00796b;
+            transition: transform 0.3s ease;
+        }
+        .profile-img:hover {
+            transform: scale(1.1);
         }
         .info {
             margin-top: 25px;
         }
         .info p {
-            font-size: 20px;
+            font-size: 22px;
             color: #004d40;
+            margin: 10px 0;
+        }
+        h1 {
+            color: #00796b;
+            font-size: 28px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: #00796b;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 10px;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background: #004d40;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <img class="profile-img" src="profile.jpg" alt="Nguyễn Xuân Thái">
-        <h1 style="color: #00796b;">Nguyễn Xuân Thái</h1>
+        <h1>Nguyễn Xuân Thái</h1>
         <div class="info">
-            <p><strong>MSSV:</strong> 2180605558</p>
+            <p><strong>MSSV:</strong> 2180604393</p>
             <p><strong>Ngành học:</strong> Công nghệ thông tin</p>
             <p><strong>Giới thiệu:</strong> Tôi là Nguyễn Xuân Thái, một sinh viên yêu thích công nghệ và lập trình.</p>
         </div>
+        <a href="#" class="btn">Xem thêm</a>
     </div>
 </body>
 </html>
