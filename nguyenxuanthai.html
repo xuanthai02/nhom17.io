@@ -13,7 +13,7 @@
             background: linear-gradient(to right, #e0f7fa, #80deea);
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 50px auto;
             padding: 40px;
             background: white;
@@ -21,8 +21,8 @@
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
         }
         .profile-img {
-            width: 200px;
-            height: 200px;
+            width: 180px;
+            height: 180px;
             border-radius: 50%;
             border: 5px solid #00796b;
             transition: transform 0.3s ease;
@@ -31,16 +31,21 @@
             transform: scale(1.1);
         }
         .info {
-            margin-top: 25px;
+            margin-top: 20px;
         }
         .info p {
-            font-size: 22px;
+            font-size: 20px;
             color: #004d40;
             margin: 10px 0;
         }
         h1 {
             color: #00796b;
             font-size: 28px;
+        }
+        h2 {
+            color: #004d40;
+            font-size: 24px;
+            margin-top: 30px;
         }
         .btn {
             display: inline-block;
@@ -56,6 +61,19 @@
         .btn:hover {
             background: #004d40;
         }
+        .section {
+            text-align: left;
+            margin-top: 30px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            font-size: 18px;
+            color: #004d40;
+            margin: 5px 0;
+        }
     </style>
 </head>
 <body>
@@ -65,9 +83,46 @@
         <div class="info">
             <p><strong>MSSV:</strong> 2180605558</p>
             <p><strong>Ngành học:</strong> Công nghệ phần mềm</p>
-            <p><strong>Giới thiệu:</strong> Tôi là Nguyễn Xuân Thái, sinh viên ngành Công nghệ phần mềm, với niềm đam mê lập trình và phát triển phần mềm. Trong suốt 4 năm học, tôi đã tìm hiểu về các công nghệ mới và tham gia nhiều dự án thực tế.</p>
+            <p><strong>Sở thích:</strong> Lập trình, thiết kế giao diện, khám phá công nghệ mới</p>
+            <p><strong>Định hướng nghề nghiệp:</strong> Trở thành lập trình viên full-stack và phát triển ứng dụng web</p>
         </div>
-        <a href="#" class="btn">Xem thêm</a>
+
+        <div class="section">
+            <h2>📚 Quá trình học tập</h2>
+            <ul>
+                <li><strong>Môn học quan trọng:</strong> Lập trình Web, Phát triển phần mềm, Trí tuệ nhân tạo</li>
+                <li><strong>Dự án thực hiện:</strong> Xây dựng website thương mại điện tử, Ứng dụng quản lý sinh viên</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🛠 Kỹ năng đạt được</h2>
+            <ul>
+                <li>✔️ Lập trình: HTML, CSS, JavaScript, PHP, Python</li>
+                <li>✔️ Thiết kế UI/UX: Figma, Adobe XD</li>
+                <li>✔️ AI/ML: Cơ bản về Machine Learning với Python</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🚀 Dự án cá nhân</h2>
+            <ul>
+                <li><strong>Website bán hàng:</strong> Xây dựng hệ thống bán hàng trực tuyến với PHP & MySQL</li>
+                <li><strong>Ứng dụng quản lý công việc:</strong> Ứng dụng giúp người dùng quản lý lịch trình</li>
+                <li><strong>Blog cá nhân:</strong> Website cá nhân để chia sẻ kiến thức công nghệ</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>📩 Liên hệ</h2>
+            <ul>
+                <li>Email: <a href="mailto:nguyenxuanthai@example.com">nguyenxuanthai@example.com</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/nguyenxuanthai" target="_blank">linkedin.com/in/nguyenxuanthai</a></li>
+                <li>GitHub: <a href="https://github.com/nguyenxuanthai" target="_blank">github.com/nguyenxuanthai</a></li>
+                <li><a class="btn" href="CV_NguyenXuanThai.pdf" download>Tải CV</a></li>
+            </ul>
+        </div>
+
     </div>
 </body>
 </html>
