@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang cá nhân - Tường</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Giới thiệu bản thân - Thọ</h1>
+    </header>
+    <section id="about">
+        <h2>Thông tin cá nhân</h2>
+        <img src="C:\Users\thodu\Pictures\Screenshots/hinh.jpg" alt="Ảnh đại diện">
+        <p><strong>Họ tên:</strong> Thọ</p>
+        <p><strong>Sở thích:</strong> Lập trình, chơi game, du lịch</p>
+        <p><strong>Định hướng nghề nghiệp:</strong> Backend Developer</p>
+    </section>
+    <section id="education">
+        <h2>Quá trình học tập</h2>
+        <ul>
+            <li>Ngành Công nghệ phần mềm - Đại học Hutech</li>
+            <li>Các môn học quan trọng: Lập trình Backend, Cơ sở dữ liệu, DevOps</li>
+        </ul>
+    </section>
+    <section id="skills">
+        <h2>Kỹ năng đạt được</h2>
+        <ul>
+            <li>Python, Node.js, Java</li>
+            <li>SQL, MongoDB</li>
+            <li>API Development, Docker</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Dự án cá nhân</h2>
+        <ul>
+            <li>Xây dựng hệ thống quản lý kho hàng bằng Node.js</li>
+            <li>Ứng dụng chatbot AI hỗ trợ khách hàng</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Liên hệ</h2>
+        <p>Email: thoducbui83@gmail.com</p>
+        <p>GitHub: <a href="#">github.com/thoducbui83</a></p>
+    </section>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+}
